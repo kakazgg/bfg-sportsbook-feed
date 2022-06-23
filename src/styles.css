@@ -1,0 +1,57 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.apikey-field {
+  padding: 8px;
+  width: 360px;
+}
+label {
+  font-size: 16px;
+  padding: 8px;
+  display: block;
+}
+select {
+  padding: 8px;
+}
+.competition {
+  margin-bottom: 8px;
+}
+.competition-title {
+  padding: 8px;
+  background-color: #abc;
+  margin-top: 8px;
+  border-top: solid 1px #789;
+}
+.competition-title:hover {
+  background-color: #bcd;
+  cursor: pointer;
+}
+.event-title {
+  padding: 8px;
+  background-color: #cde;
+  border-bottom: solid 1px #89a;
+  border-top: solid 1px #89a;
+}
+.selections {
+  display: flex;
+}
+.selection {
+  padding: 8px;
+  flex: 1;
+  border-right: solid 1px #89a;
+  background-color: #efefef;
+}
+.selection:hover {
+  background-color: #eff;
+  cursor: pointer;
+}
+.selection:first-of-type {
+  border-left: 0;
+}
+.selection:last-of-type {
+  border-right: 0;
+}
+.loading {
+  padding: 16px;
+}
